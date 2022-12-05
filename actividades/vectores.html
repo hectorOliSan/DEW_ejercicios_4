@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vectores</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/icons/bootstrap-icons.css" />
+    <script src="../js/funciones.js"></script>
+    <script src="../js/vectores.js"></script>
+  </head>
+  <body>
+    <main class="container p-5">
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="my-0 mx-2 fs-2 text-center font-monospace">Vectores:</p>
+        <button
+          class="mx-2 col-sm-6 col-md-4 col-lg-2 btn btn-primary btn-sm"
+          onclick="descripcion()"
+        >
+          Mostrar descripción
+        </button>
+        <dialog id="modal" class="col-6 rounded">
+          <div class="mb-3 d-flex justify-content-end">
+            <button class="btn btn-secondary btn-sm" onclick="cerrar()">
+              <b><i class="bi bi-x-lg"></i></b>
+            </button>
+          </div>
+          <p class="fs-5 font-monospace text-center">
+            <b>Vectores:</b> El usuario introducirá una serie de elementos. Debe
+            ordenar un vector con números y string en mayúsculas y minúsculas,
+            el resultado será la ordenación ignorando mayúsculas y minúsculas.
+            <br />
+            Visualizar el vector desordenado en pantalla, luego ordenado y
+            también con sus elementos al revés.
+          </p>
+        </dialog>
+      </div>
+      <br />
+      <div class="d-flex justify-content-center">
+        <button class="mb-3 mx-2 col-sm-4 col-md-3 btn btn-primary" onclick="ver()">
+          Ver Vector
+        </button>
+        <button class="mb-3 mx-2 col-sm-4 col-md-3 btn btn-primary" onclick="ordenar()">
+          Ordenar Vector
+        </button>
+        <button class="mb-3 mx-2 col-sm-4 col-md-3 btn btn-primary" onclick="reves()">
+          Vector al Revés
+        </button>
+      </div>
+      <div class="mt-4 text-center">
+          <textarea
+            id="text_area"
+            class="form-control text-center font-monospace fs-5"
+            rows="1"
+            disabled
+          ></textarea>
+      </div>
+      <div class="mt-4 d-flex justify-content-center">
+        <p id="suma_ayuda" class="fs-5 font-monospace text-muted"></p>
+      </div>
+
+      <p class="text-center">
+        <a class="btn btn-secondary" href="../index.html">Volver</a>
+      </p>
+    </main>
+    <script src="../js/bootstrap.bundle.js"></script>
+  </body>
+</html>

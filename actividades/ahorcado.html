@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahorcado</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/icons/bootstrap-icons.css" />
+    <script src="../js/funciones.js"></script>
+  </head>
+  <body>
+    <main class="container p-5">
+      <div class="d-flex justify-content-center align-items-center">
+        <p class="my-0 mx-2 fs-2 text-center font-monospace">
+          Juego del Ahorcado:
+        </p>
+        <button
+          class="mx-2 col-sm-6 col-md-4 col-lg-2 btn btn-primary btn-sm"
+          onclick="descripcion()"
+        >
+          Mostrar descripción
+        </button>
+        <dialog id="modal" class="col-6 rounded">
+          <div class="mb-3 d-flex justify-content-end">
+            <button class="btn btn-secondary btn-sm" onclick="cerrar()">
+              <b><i class="bi bi-x-lg"></i></b>
+            </button>
+          </div>
+          <p class="fs-5 font-monospace text-center">
+            <b>Juego del Ahorcado:</b> Juego para realizar entre dos usuarios.
+            El primer usuario escribirá la palabra a adivinar en un control tipo
+            password (input type="password"). Cuando dicho control pierda el
+            foco, el programa visualizará una letra de ayuda escogida
+            aleatoriamente entre las letras de la palabra elegida. <br />
+            Si la letra se repite se presentará tantas veces como esté presente.
+            El resto de las letras se marcará con guiones bajos, por ejemplo
+            _A_A__A, suponiendo que se haya escrito PALABRA y que haya salido
+            elegida la letra A. A continuación el otro usuario comenzará su
+            elección en otro control de edición (input type="text") que solo
+            acepte una letra. <br />
+            Dicha letra se presentará en mayúsculas aunque haya sido tecleada en
+            minúsculas. El programa irá sustituyendo los guiones por las letras
+            acertadas o bien irá visualizando las correspondientes imágenes de
+            error hasta que se acierte la palabra o se completen los errores
+            admitidos.
+          </p>
+        </dialog>
+      </div>
+      <div class="mt-4 d-flex justify-content-center">
+        <a class="mx-2 btn btn-secondary" href="../index.html">Volver</a>
+      </div>
+      <div class="mt-4 d-flex justify-content-center">
+        <p id="suma_ayuda" class="fs-5 font-monospace text-muted"></p>
+      </div>
+    </main>
+    <script src="../js/bootstrap.bundle.js"></script>
+  </body>
+</html>
