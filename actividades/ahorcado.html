@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="../css/bootstrap.css" />
     <link rel="stylesheet" href="../css/icons/bootstrap-icons.css" />
     <script src="../js/funciones.js"></script>
+    <script src="../js/lista_ahorcado.js"></script>
+    <script src="../js/ahorcado.js"></script>
   </head>
-  <body>
+  <body onload="cargar_ahorcado()">
     <main class="container p-5">
-      <div class="d-flex justify-content-center align-items-center">
+      <div class="m-0 d-flex justify-content-center align-items-center">
         <p class="my-0 mx-2 fs-2 text-center font-monospace">
           Juego del Ahorcado:
         </p>
@@ -48,11 +50,41 @@
           </p>
         </dialog>
       </div>
-      <div class="mt-4 d-flex justify-content-center">
-        <a class="mx-2 btn btn-secondary" href="../index.html">Volver</a>
+      <div class="m-0 d-flex justify-content-evenly align-items-center">
+        <img
+          id="img_ahorcado"
+          class="img-fluid"
+          src="../images/ahorcado_0.svg"
+          alt="ahorcado"
+        />
+        <div class="col-auto text-center font-monospace">
+          <p id="palabra" class="fs-2 fw-bold"></p>
+          <hr class="rounded border border-1 border-primary opacity-50" />
+          <p id="historial" class="fs-5 text-muted"></p>
+        </div>
       </div>
-      <div class="mt-4 d-flex justify-content-center">
-        <p id="suma_ayuda" class="fs-5 font-monospace text-muted"></p>
+      <div class="m-0 d-flex justify-content-center">
+        <p id="ahor_ayuda" class="fs-5 font-monospace text-muted"></p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div
+          id="teclado"
+          class="p-4 col-sm-10 col-md-10 col-lg-5 text-center"
+        ></div>
+      </div>
+      <dialog id="final" class="col-6 rounded">
+          <div class="mb-3 d-flex justify-content-end">
+            <button class="btn btn-secondary btn-sm" onclick="cerrar_final()">
+              <b><i class="bi bi-x-lg"></i></b>
+            </button>
+          </div>
+          <p id="texto_final" class="fs-5 font-monospace text-center"></p>
+        </dialog>
+      <div class="m-2 d-flex justify-content-center">
+        <button onclick="reiniciar()" class="mx-2 col-4 btn btn-primary">
+          Reiniciar
+        </button>
+        <a class="mx-2 btn btn-secondary" href="../index.html">Volver</a>
       </div>
     </main>
     <script src="../js/bootstrap.bundle.js"></script>
