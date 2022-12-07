@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg810"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   sodipodi:docname="ahorcado_7.svg"
+   inkscape:export-filename="ahorcado_7.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs814" />
+  <sodipodi:namedview
+     id="namedview812"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     showguides="true" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g816">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 245.39866,369.49957 293.12243,321.6369"
+       id="path1460-4-5-9-5-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:9.96314;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 245.2639,266.37566 45.20051,-22.43571"
+       id="path1460-4-5-9-5-5-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:9.96314;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 293.15162,243.95914 45.24313,22.34963"
+       id="path1460-4-5-9-5-5-4-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 291.44147,321.7353 46.95329,48.61873"
+       id="path1460-4-5-9-5-5-0" />
+    <g
+       id="g2075"
+       style="stroke:#000000;stroke-opacity:1">
+      <ellipse
+         style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:7.50289;stroke-dasharray:none;stroke-opacity:1"
+         id="path1030"
+         cx="291.57349"
+         cy="181.94572"
+         rx="34.171959"
+         ry="34.330765"
+         transform="matrix(0.9999974,-0.00228036,0.00218463,0.99999761,0,0)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:17.961;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 88.657373,415.36731 76.779547,0.15372"
+         id="path1460" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:10.7574;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 122.62245,118.72364 -0.0439,290.43361"
+         id="path1460-4" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:10.7382;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 89.810887,112.29273 270.125123,0.28799"
+         id="path1460-4-5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:13.1483;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 123.871,167.93041 49.38951,-53.65734"
+         id="path1460-4-5-9" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:11.6691;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 291.57985,144.46234 -0.0133,-25.93709"
+         id="path1460-4-5-9-6" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:13.1945;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 292.14963,325.79323 292.04924,218.54976"
+         id="path1460-4-5-9-5" />
+    </g>
+    <path
+       style="fill:none;stroke:#980000;stroke-width:10.9194;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260.11728,228.49652 64.09654,0.11753"
+       id="path1460-4-5-9-5-5-4-4-4" />
+  </g>
+</svg>
